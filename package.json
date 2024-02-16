@@ -12,10 +12,14 @@
     },
     "scripts": {
         "build": "tsc",
-        "format": "prettier . --write"
+        "format": "prettier . --write",
+        "publish": "npm publish"
     },
     "author": "",
     "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "prettier": "^3.2.5",
         "typescript": "^5.3.3"
