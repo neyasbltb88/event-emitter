@@ -1,17 +1,19 @@
 {
-  "name": "@neyasbltb_88/event-emitter",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "module": "./dist",
-  "main": "./dist/index.js",
-  "types": "./dist",
-  "scripts": {
-    "build": "tsc"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.3.3"
-  }
+    "name": "@neyasbltb_88/event-emitter",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "module": "./dist",
+    "main": "./dist/index.js",
+    "types": "./dist",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier . --write"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "typescript": "^5.3.3"
+    }
 }
