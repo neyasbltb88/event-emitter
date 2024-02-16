@@ -7,9 +7,6 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "declarationMap": true,
     "declaration": true,
     "noEmit": false,
 
