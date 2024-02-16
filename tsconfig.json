@@ -1,22 +1,22 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "skipLibCheck": true,
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "skipLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "declaration": true,
-    "noEmit": false,
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "declaration": true,
+        "noEmit": false,
 
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
 
-    "outDir": "dist"
-  },
-  "include": ["src/**/*.ts"]
+        "outDir": "dist"
+    },
+    "include": ["src/**/*.ts"]
 }
